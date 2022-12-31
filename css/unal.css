@@ -1,3 +1,4 @@
+/* fonts */
 @font-face {
 	font-family: 'Ancizar sans'; font-weight: bold; font-style: italic; src: url("../fonts/ancizarsans_bold_italic-webfont.eot"), url("../fonts/ancizarsans_bold_italic-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/ancizarsans_bold_italic-webfont.woff") format('woff'), url("../fonts/ancizarsans_bold_italic-webfont.ttf") format('truetype'), url("../fonts/ancizarsans_bold_italic-webfont.svg#ancizar_sansbold_italic") format('svg');
 }
@@ -29,6 +30,8 @@
 @font-face {
 	font-family: 'Ancizar serif'; font-weight: normal; font-style: normal; src: url("../fonts/ancizarserif_regular-webfont.eot"), url("../fonts/ancizarserif_regular-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/ancizarserif_regular-webfont.woff") format('woff'), url("../fonts/ancizarserif_regular-webfont.ttf") format('truetype'), url("../fonts/ancizarserif_regular-webfont.svg#ancizar_sansbold_italic") format('svg');
 }
+
+/* no important for the moment */
 /* html, body{
 	height: 100%;
 	background-color: rgba(215, 19, 19, 0.736);
@@ -36,9 +39,9 @@
 
 .contenedor{
 	height: 49%;
-
 	margin: 1% 1%;
 } */
+
 
 body {
 
@@ -57,10 +60,12 @@ body {
 	overflow-y: scroll;
 
 }
+
+/* principal page */
 .contenedor1 {
 	background-image: url("../images/bgmain.jpeg");
 	width: 100%;
-	height: 150vh;
+	height: 120vh;
 	background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,12 +75,94 @@ body {
 }
 .boton-contacto {
 	left: 195px;
-	top: 652px;
+	top: 490px;
 
 	border: 2px solid #BFE0FF; /*anchura, estilo y color borde*/
 	background-color: #BFE0FF; /*color botón*/
 	border-width: 3px;
 	border-style: solid;
+	border-radius:50px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:20px;
+	padding-right:20px; /*espacio alrededor texto*/
+	
+	
+	text-decoration: none; /*decoración texto*/
+	position: absolute;
+	
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+
+	color: #000; /*color texto, no sirve por el momento*/
+
+	}
+
+.contenedor1-grupo{
+	position: absolute;
+	left: 195px;
+	top: 610px;
+	display: flex;
+	width: 280px;
+	height: 100px;
+	background: #FFFFFF;
+	border-radius: 2px;
+	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+}
+
+.contenedor1-proyectos{
+	position: absolute;
+	left: 550px;
+	top: 610px;
+	display: flex;
+	width: 280px;
+	height: 100px;
+	background: #FFFFFF;
+	border-radius: 2px;
+	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+}
+.contenedor1-asociacion{
+	position: absolute;
+	left: 900px;
+	top: 610px;
+	display: flex;
+	width: 280px;
+	height: 100px;
+	background: #FFFFFF;
+	border-radius: 2px;
+	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+}
+.boton-grupo-img{
+	position: relative;
+	padding-top: 25px;
+	padding-left:20px;
+	padding-right:20px;
+	text-align: left;
+	color: #000;
+}
+.boton-grupo-texto{
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: left;
+	color: #000;
+}
+.boton-grupo-texto h1{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+/* .boton-grupo-header { */
+	left:195px;
+	top: 610px;
+
+	border: 2px solid #BFE0FF; /*anchura, estilo y color borde*/
+	background-color: #BFE0FF; /*color botón*/
 	border-radius:50px;
 	padding-top:15px;
 	padding-bottom:15px;
@@ -94,10 +181,11 @@ body {
 
 	color: #000; /*color texto, no sirve por el momento*/
 
-	}
+}
+
 
 .contenedor2 {
-	background-image: url("../images/access-icon.jpg");
+	background-image: url("../images/escudoUnal.png");
 	width: 100%;
 	height: 150vh;
 	display: flex;
@@ -106,31 +194,41 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-#image-2{
-	background-image: url("../images/bgmain.jpeg");
+.contenedor3 {
+	background-color: #FFFFFF;
 	width: 100%;
-	height: 150vh;
+	height: 50vh;
+	background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor4 {
+	background-image: url("../images/sealColombia.png");
+	width: 100%;
+	height: 50vh;
 	background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-
+/* No se para que sirve esto
 img#image-1 {
 	position: absolute;
 	width: 100%;
 	height: 20%;
 	top: -35px;
 	z-index:-0.5;
-}
+} */
 
+/* text of principal page */
 div.main-title {
 	position: absolute;
 	width: 398px;
 	height: 174px;
 	left: 195px;
-	top: 230px;
+	top: 100px;
 
 	font-family: 'Open Sans';
 	font-style: normal;
@@ -149,7 +247,7 @@ div.main-subtitle{
 
 	height: 98px;
 	left: 195px;
-	top: 380px;
+	top: 240px;
 
 	font-family: 'Open Sans';
 	font-style: normal;
@@ -168,7 +266,7 @@ div.main-text{
 	width: 545px;
 	height: 66px;
 	left: 195px;
-	top: 486px;
+	top: 350px;
 
 	font-family: 'Open Sans';
 	font-style: normal;
@@ -180,13 +278,24 @@ div.main-text{
 	z-index:10;
 
 }
-
+/* end principal page */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Ancizar serif", "MS Serif", "New York", serif;
+	font-family: 'Open Sans';
+	/* font-family: "Ancizar serif", "MS Serif", "New York", serif; */
 }
-
-
+h1{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px;
+}
+h2{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+}
 a {
 	color: #94b43b;
 }
