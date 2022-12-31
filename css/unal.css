@@ -36,24 +36,24 @@
 
 .contenedor{
 	height: 49%;
-	
+
 	margin: 1% 1%;
 } */
 
 body {
 
-	font-family: "Ancizar sans", Tahoma, Geneva, sans-serif; 
-	display: -webkit-box; 
-	display: -webkit-flex; 
-	display: -moz-flex; 
-	display: flex; 
-	min-height: 100vh; 
-	-webkit-box-direction: normal; 
-	-webkit-box-orient: vertical; 
-	-webkit-flex-direction: column; 
-	-moz-flex-direction: column; 
-	-ms-flex-direction: column; 
-	flex-direction: column; 
+	font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+	min-height: 100vh;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	overflow-y: scroll;
 
 }
@@ -65,9 +65,37 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-	margin: 0 0 0;
-	
+
+
 }
+.boton-contacto {
+	left: 195px;
+	top: 652px;
+
+	border: 2px solid #BFE0FF; /*anchura, estilo y color borde*/
+	background-color: #BFE0FF; /*color botón*/
+	border-width: 3px;
+	border-style: solid;
+	border-radius:50px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:15px; /*espacio alrededor texto*/
+	
+	
+	text-decoration: none; /*decoración texto*/
+	position: absolute;
+	
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+
+	color: #000; /*color texto, no sirve por el momento*/
+
+	}
+
 .contenedor2 {
 	background-image: url("../images/access-icon.jpg");
 	width: 100%;
@@ -101,7 +129,7 @@ div.main-title {
 	position: absolute;
 	width: 398px;
 	height: 174px;
-	left: 84px;
+	left: 195px;
 	top: 230px;
 
 	font-family: 'Open Sans';
@@ -120,7 +148,7 @@ div.main-subtitle{
 	width: 500px;
 
 	height: 98px;
-	left: 84px;
+	left: 195px;
 	top: 380px;
 
 	font-family: 'Open Sans';
@@ -139,7 +167,7 @@ div.main-text{
 
 	width: 545px;
 	height: 66px;
-	left: 84px;
+	left: 195px;
 	top: 486px;
 
 	font-family: 'Open Sans';
@@ -270,7 +298,7 @@ ul.dropdown-menu a:focus {
 
 #unalTop {
 	position: relative; z-index: 3;
-	
+
 }
 
 #unalTop .logo {
@@ -862,9 +890,9 @@ footer .logos a img {
 	#unalTop .seal img {
 		width: 45px; height: 45px; margin-top: 5px;
 	}
-	main.detalle {
+	/* main.detalle {
 		margin: 0 5% 50px;
-	}
+	} */
 	/* main .breadcrumb-class {
 		margin-top: 15px;
 	} */
@@ -889,9 +917,9 @@ footer .logos a img {
 	body #unalTop .firstMenu .navbar-toggle {
 		margin-right: 11px;
 	}
-	body main.detalle {
+	/* body main.detalle {
 		margin: 0 2% 50px;
-	}
+	} */
 	body footer {
 		padding: 15px 0 25px;
 	}
@@ -1004,9 +1032,9 @@ footer .logos a img {
 	#unalTop .navigation .btn-group { width: 100%; }
 	#container_mainmenu_mobil .btn-default{ text-align: left; }
 
-	main.detalle {
+	/* main.detalle {
 		margin: 0 5% 50px;
-	}
+	} */
 	/* main .breadcrumb-class {
 		margin-top: 10px;
 	} */
