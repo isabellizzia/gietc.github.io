@@ -31,20 +31,23 @@
 	font-family: 'Ancizar serif'; font-weight: normal; font-style: normal; src: url("../fonts/ancizarserif_regular-webfont.eot"), url("../fonts/ancizarserif_regular-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/ancizarserif_regular-webfont.woff") format('woff'), url("../fonts/ancizarserif_regular-webfont.ttf") format('truetype'), url("../fonts/ancizarserif_regular-webfont.svg#ancizar_sansbold_italic") format('svg');
 }
 
-/* no important for the moment */
 /* html, body{
+/* no important for the moment */
+/* 
 	height: 100%;
-	background-color: rgba(215, 19, 19, 0.736);
-  }
+	background-color: rgba(215, 19, 19, 0.736); */
 
-.contenedor{
+/* .contenedor{
 	height: 49%;
 	margin: 1% 1%;
-} */
+} 
 
+*/ */
+:root {
+	--hover-color:rgb(255, 251, 176);
+}
 
 body {
-
 	font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -60,21 +63,28 @@ body {
 	overflow-y: scroll;
 
 }
+div.tx-unal-accesibilidad {
+	background-image:url("../images/bgmain.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
 
 /* principal page */
 .contenedor1 {
 	background-image: url("../images/bgmain.jpeg");
 	width: 100%;
-	height: 120vh;
+	height: 110vh;
 	background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+	
 
 
 }
 .boton-contacto {
-	left: 195px;
+	left: 13%;
 	top: 490px;
 
 	border: 2px solid #BFE0FF; /*anchura, estilo y color borde*/
@@ -82,20 +92,20 @@ body {
 	border-width: 3px;
 	border-style: solid;
 	border-radius:50px;
-	padding-top:15px;
 	padding-bottom:15px;
+	padding-top:15px;
 	padding-left:20px;
 	padding-right:20px; /*espacio alrededor texto*/
-	
-	
+
+
 	text-decoration: none; /*decoración texto*/
 	position: absolute;
-	
 
-	font-family: 'Open Sans';
+
+
 	font-style: normal;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 20px;
 
 	color: #000; /*color texto, no sirve por el momento*/
 
@@ -103,7 +113,7 @@ body {
 
 .contenedor1-grupo{
 	position: absolute;
-	left: 195px;
+	left: 13%;
 	top: 610px;
 	display: flex;
 	width: 280px;
@@ -111,12 +121,14 @@ body {
 	background: #FFFFFF;
 	border-radius: 2px;
 	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+	
 }
 
 .contenedor1-proyectos{
 	position: absolute;
-	left: 550px;
-	top: 610px;
+	top: 660px;
+	left: 50%;
+	transform: translate(-50%,-50%);
 	display: flex;
 	width: 280px;
 	height: 100px;
@@ -126,7 +138,7 @@ body {
 }
 .contenedor1-asociacion{
 	position: absolute;
-	left: 900px;
+	right: 13%;
 	top: 610px;
 	display: flex;
 	width: 280px;
@@ -151,37 +163,28 @@ body {
 	color: #000;
 }
 .boton-grupo-texto h1{
-	font-family: 'Open Sans';
 	font-style: normal;
 	font-size: 18px;
 	font-weight: bold;
-
 }
-/* .boton-grupo-header { */
-	left:195px;
-	top: 610px;
-
-	border: 2px solid #BFE0FF; /*anchura, estilo y color borde*/
-	background-color: #BFE0FF; /*color botón*/
-	border-radius:50px;
-	padding-top:15px;
-	padding-bottom:15px;
-	padding-left:15px;
-	padding-right:15px; /*espacio alrededor texto*/
-	
-	
-	text-decoration: none; /*decoración texto*/
-	position: absolute;
-	
-
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
-
-	color: #000; /*color texto, no sirve por el momento*/
-
+/* .tab {
+	padding: 20px;
+	color: white;
+	width: 50%;
 }
+
+.row:after {
+	overflow: hidden;
+	display: table;
+	clear: both;
+  }
+
+.closeButton {
+	float: right;
+	color: white;
+	font-size: 35px;
+	cursor: pointer;
+} */
 
 
 .contenedor2 {
@@ -195,15 +198,56 @@ body {
     background-attachment: fixed;
 }
 .contenedor3 {
+
 	background-color: #FFFFFF;
 	width: 100%;
-	height: 50vh;
+	height: 60vh;
 	background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+
+.c3interventoria{
+	position: absolute;
+	width: 280px;
+	height: 250px;
+	left: 13%;
+	top: 900px;
+	display: flex;
+	background: #d15ba4;
+	border-radius: 2px;
+	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+}
+.c3consultoria{
+	position: absolute;
+	top: 1025px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	width: 280px;
+	height: 250px;
+	background: #901d1d;
+	border-radius: 2px;
+	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+}
+.c3diseño{
+	position: absolute;
+	width: 280px;
+	height: 250px;
+	right: 13%;
+	top: 900px;
+	display: flex;
+	background: #302929;
+	border-radius: 2px;
+	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+}
+
 .contenedor4 {
+	display: grid;
+	grid-template-columns: 1fr 500px 1fr;
+	grid-template-rows: 100px 200px;
+	place-items: center;
 	background-image: url("../images/sealColombia.png");
 	width: 100%;
 	height: 50vh;
@@ -212,6 +256,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+
 
 /* No se para que sirve esto
 img#image-1 {
@@ -227,8 +273,9 @@ div.main-title {
 	position: absolute;
 	width: 398px;
 	height: 174px;
-	left: 195px;
+	left: 13%;
 	top: 100px;
+	display: flex;
 
 	font-family: 'Open Sans';
 	font-style: normal;
@@ -246,10 +293,10 @@ div.main-subtitle{
 	width: 500px;
 
 	height: 98px;
-	left: 195px;
+	left:13%;
 	top: 240px;
 
-	font-family: 'Open Sans';
+	
 	font-style: normal;
 	font-weight: 600;
 	font-size: 24px;
@@ -265,10 +312,10 @@ div.main-text{
 
 	width: 545px;
 	height: 66px;
-	left: 195px;
+	left: 13%;
 	top: 350px;
 
-	font-family: 'Open Sans';
+	
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
@@ -281,7 +328,7 @@ div.main-text{
 /* end principal page */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans';
+	font-family:'';
 	/* font-family: "Ancizar serif", "MS Serif", "New York", serif; */
 }
 h1{
@@ -290,18 +337,44 @@ h1{
 	line-height: 44px;
 }
 h2{
-	font-family: 'Open Sans';
+	
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 27px;
+}
+h3{
+	left: 50%;
+	top: 810px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 100%;
+
+	height: 90px;
+
+
+	/* font-family: 'Open Sans'; */
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 65px;
+
+color: #000000;
 }
 a {
 	color: #94b43b;
 }
 
 a:hover {
-	text-decoration: underline; color: #333333;
+	text-decoration: none;
+
+}
+
+.boton-contacto:hover{
+	color: black;
+	background: var(--hover-color);
+	border: none;
 }
 
 main {

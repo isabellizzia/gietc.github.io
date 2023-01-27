@@ -24,6 +24,7 @@
   <meta name="expires" content="1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="robots" content="all">
+  
 
   <link rel="stylesheet" type="text/css" href="css/frontend.css" media="all">
   <link rel="stylesheet" type="text/css" href="css/accesibilidad.css" media="all">
@@ -42,6 +43,14 @@
   <script src="js/accesibilidad.js" type="text/javascript"></script>
   <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
   <script src="https://kit.fontawesome.com/f0d3bde4fb.js" crossorigin="anonymous"></script>
+  <script>function openGrid(tabContent) {
+    var i, x
+    x = document.getElementsByClassName('tab')
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = 'none'
+    }
+    document.getElementById(tabContent).style.display = 'block'
+  }</script>
   <!--[if lt IE 9]><script src="js/html5shiv.js"
   type="text/javascript"></script><![endif]-->
   <!--[if lt IE 9]><script src="js/respond.js"
@@ -186,7 +195,7 @@
     <div id="bs-navbar" class="navigation d-none d-md-block">
       <!-- Título del sitio -->
       <div class="site-url" id="subdominio">
-        <a href="http://subdominio.unal.edu.co/">subdominio.unal.edu.co</a>
+        <a href="http://subdominio.unal.edu.co/">gietc.unal.edu.co</a>
       </div>
       <!-- Buscador -->
       <div class="buscador" id="buscador">
@@ -452,10 +461,10 @@
       -->
       <a class="boton-contacto" href="http://laweb.com" target="_blank">Contáctanos</a>
       
-      <div class="contenedor1-grupo">
+      <div class="contenedor1-grupo" onclick="openGrid('expd1');">
         <div class="boton-grupo-img">
           <a href="#" target="_blank" style="color: rgb(0, 0, 0);">
-          <i class="fa-solid fa-users-line fa-3x"></i>
+          <i class="fa-solid fa-user-group fa-3x"></i>
         </div>
 
         <div class="boton-grupo-texto">
@@ -466,7 +475,7 @@
       <div class="contenedor1-proyectos">
         <div class="boton-grupo-img">
           <a href="#" target="_blank" style="color: rgb(0, 0, 0);">
-          <i class="fa-light fa-lightbulb-on"></i>
+          <i class="fa-sharp fa-solid fa-lightbulb fa-3x"></i>
         </div>
 
         <div class="boton-grupo-texto">
@@ -477,7 +486,7 @@
       <div class="contenedor1-asociacion">
         <div class="boton-grupo-img">
           <a href="#" target="_blank" style="color: rgb(0, 0, 0);">
-          <i class="fa-light fa-share-nodes fa-3x"></i>
+          <i class="fa-sharp fa-solid fa-share-nodes fa-3x"></i>
         </div>
 
         <div class="boton-grupo-texto">
@@ -486,15 +495,50 @@
         </div>
       </div>    
     </div>
+    <!-- <div id="expd1" class="tab" style="display:none; background:red">
+      <span
+        onclick="this.parentElement.style.display='none'"
+        class="closeButton"
+      >
+        &times;
+      </span>
+      <h2>Box 1</h2>
+      <p>
+        Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti
+        intellegat, te sanctus inermis ullamcorper nam. Ius error diceret
+        deseruisse ad
+      </p>
+    </div> -->
 
-    <div class="contenedor2">
-    </div>
-    
     <div class="contenedor3">
+      <h3>Servicios realizados</h3>
+      <div class="c3interventoria">
+        <div class="boton-grupo-texto">
+          <h1>Grupo GIETC</h1>
+          <p>Conoce el grupo</p>
+        </div>
+      </div>
+      <div class="c3consultoria">
+          <div class="boton-grupo-texto">
+          <h1>Proyectos GIETC</h1>
+          <p>Acceder a los Proyectos</p>
+        </div>
+      </div>
+      <div class="c3diseño">
+        <div class="boton-grupo-texto">
+          <h1>Asociación GIETC</h1>
+          <p>Ver empresas y grupos asociados</p>
+        </div>
+      </div>    
     </div>
     <div class="contenedor4">
+      <i>ok</i>
+      <i>ok</i>
+      <i>ok</i>
     </div>
-  
+    <!-- Home 2 -->
+    
+   
   
 
   </main>     
