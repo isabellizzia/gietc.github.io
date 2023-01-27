@@ -1098,9 +1098,9 @@ footer .logos a img {
 	body #unalTop .seal {
 		display: none;
 	}
-	body #unalTop .firstMenu .navbar-toggle {
+	/* body #unalTop .firstMenu .navbar-toggle {
 		margin-right: 11px;
-	}
+	} */
 	/* body main.detalle {
 		margin: 0 2% 50px;
 	} */
@@ -1234,6 +1234,119 @@ footer .logos a img {
 	footer .logos {
 		margin-top: 10px;
 	}
+
+
+	/* principal page */
+	.contenedor1 {
+		background-image: url("../images/bgmain.jpeg");
+		margin-right: -100px;
+		height: 120vh;
+		width: 100vw;
+		background-position:center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		
+	}
+	div.main-title {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		top: 5%;
+
+		display: flex;
+		justify-content: center;
+		width: 398px;
+		height: 150px;
+		font-size: 70px;
+	
+	}
+	div.main-subtitle{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*Modify text lenght */
+		width: 500px;
+		position: absolute;
+		height: 98px;
+		
+		right: 13%;
+		top: 8%;
+	
+		
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 49px;
+	
+		color: #FFFFFF;
+		
+	
+	}
+	div.main-text{
+		position: absolute;
+		/*Modify text lenght */
+	
+		width: 545px;
+		height: 66px;
+		left: 13%;
+		top: 250px;
+	
+		
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 33px;
+	
+		color: #FFFFFF;
+		z-index:10;
+	
+	}
+	.boton-contacto {
+		top: 450px;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		display: flex;
+		}
+	.contenedor1-grupo{
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		top: 610px;
+		display: flex;
+		width: 280px;
+		height: 100px;
+		background: #FFFFFF;
+		border-radius: 2px;
+		box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+		
+	}
+	
+	.contenedor1-proyectos{
+		position: absolute;
+		top: 740px;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		display: flex;
+		width: 280px;
+		height: 100px;
+		background: #FFFFFF;
+		border-radius: 2px;
+		box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+	}
+	.contenedor1-asociacion{
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		top: 870px;
+		display: flex;
+	}
+
+	.boton-grupo-texto{
+		text-align: center;
+	}
+	
 }
 
 @media screen and (min-width:768px) {
