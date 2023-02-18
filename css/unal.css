@@ -33,21 +33,21 @@
 
 /* html, body{
 /* no important for the moment */
-/* 
+/*
 	height: 100%;
 	background-color: rgba(215, 19, 19, 0.736); */
 
 /* .contenedor{
 	height: 49%;
 	margin: 1% 1%;
-} 
+}
 
 */ */
 :root {
 	--hover-color:rgb(255, 251, 176);
 }
 
-  
+
 body {
 	font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
 	display: -webkit-box;
@@ -81,10 +81,11 @@ div.tx-unal-accesibilidad {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-	font-family: Arial, Helvetica, sans-serif;
-
+	font-family: "Ancizar serif", "MS Serif", "New York", serif;
+	
 
 }
+/* font-family: Arial, Helvetica, sans-serif; */
 .boton-contacto {
 	left: 13%;
 	top: 490px;
@@ -123,7 +124,7 @@ div.tx-unal-accesibilidad {
 	background: #FFFFFF;
 	border-radius: 2px;
 	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Ancizar serif", "MS Serif", "New York", serif;
 }
 
 .contenedor1-proyectos{
@@ -137,7 +138,7 @@ div.tx-unal-accesibilidad {
 	background: #FFFFFF;
 	border-radius: 2px;
 	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family:"Ancizar serif", "MS Serif", "New York", serif;
 }
 .contenedor1-asociacion{
 	position: absolute;
@@ -149,7 +150,7 @@ div.tx-unal-accesibilidad {
 	background: #FFFFFF;
 	border-radius: 2px;
 	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Ancizar serif", "MS Serif", "New York", serif;
 }
 .boton-grupo-img{
 	position: relative;
@@ -170,7 +171,7 @@ div.tx-unal-accesibilidad {
 	font-style: normal;
 	font-size: 18px;
 	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Ancizar serif", "MS Serif", "New York", serif;
 }
 /* .tab {
 	padding: 20px;
@@ -203,7 +204,7 @@ div.tx-unal-accesibilidad {
     background-attachment: fixed;
 }
 .contenedor3 {
-	
+
 	background-color: #FFFFFF;
 	width: 100%;
 	background-position:center;
@@ -211,8 +212,8 @@ div.tx-unal-accesibilidad {
     background-size: cover;
     background-attachment: fixed;
 	margin-top: 2%;
-	font-family: Arial, Helvetica, sans-serif;
-	
+	font-family: "Ancizar serif", "MS Serif", "New York", serif;
+
 
 }
 
@@ -220,29 +221,29 @@ div.tx-unal-accesibilidad {
 
 .serviceTitle h2{
 	position: relative;
-	
+
 	text-align: center;
 	letter-spacing: 2px;
-	
+
 	margin-bottom: 5px;
 
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Ancizar serif", "MS Serif", "New York", serif;
 	font-weight: 600;
 	font-size: 30px;
-	
+
 
 	color: #000000;
 	z-index:2;
-	
-	
+
+
 }
 .serviceBox h3 {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Ancizar serif", "MS Serif", "New York", serif;
 }
 .serviceTitle p{
 	text-align: center;
 	margin-bottom: 2px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Ancizar serif", "MS Serif", "New York", serif;
 
 }
 
@@ -265,7 +266,7 @@ div.tx-unal-accesibilidad {
 	max-width: 100%;
 	position: relative;
     border-radius: 30px;
-	
+
 }
 .contenedor3 .contentBox .serviceBox h2{
 	font-size: 1.1em;
@@ -276,7 +277,7 @@ div.tx-unal-accesibilidad {
 	text-align: center;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	
+
 }
 .contenedor3 .contentBox .serviceBox p{
 	text-align: center;
@@ -335,7 +336,7 @@ div.main-subtitle{
 	left:13%;
 	top: 240px;
 
-	
+
 	font-style: normal;
 	font-weight: 600;
 	font-size: 24px;
@@ -354,7 +355,7 @@ div.main-text{
 	left: 13%;
 	top: 350px;
 
-	
+
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
@@ -368,7 +369,7 @@ div.main-text{
 
 h1, h2, h3, h4, h5, h6 {
 	font-family:'';
-	/* font-family: "Ancizar serif", "MS Serif", "New York", serif; */
+	font-family: "Ancizar serif", "MS Serif", "New York", serif;
 }
 h1{
 	font-weight: 700;
@@ -380,9 +381,9 @@ h2{
 	/*Modify text lenght */
 	font-weight: 600;
 	font-size: 24px;
-	
 
-	
+
+
 }
 h3{
 	left: 50%;
@@ -1285,14 +1286,14 @@ footer .logos a img {
 	/* principal page */
 	.contenedor1 {
 		background-image: url("../images/bgmain.jpeg");
-		
+
 		height: 150vh;
 		width: 100vw;
 		background-position:center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
-		
+
 	}
 	div.main-title {
 		position: absolute;
@@ -1305,7 +1306,7 @@ footer .logos a img {
 		width: 398px;
 		height: 150px;
 		font-size: 70px;
-	
+
 	}
 	div.main-subtitle{
 		display: flex;
@@ -1316,20 +1317,20 @@ footer .logos a img {
 		/*Modify text lenght */
 		width: 70%;
 		height: 20vh;
-		
-		
-		
+
+
+
 		top: 8%;
-	
-		
+
+
 		font-style: normal;
 		font-weight: 600;
 		font-size: 20px;
 		line-height: 25px;
-	
+
 		color: #FFFFFF;
-		
-	
+
+
 	}
 	div.main-text{
 		display: flex;
@@ -1337,23 +1338,23 @@ footer .logos a img {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		
+
 		/*Modify text lenght */
-	
+
 		width: 70%;
 		height: 20vh;
 		left: 13%;
 		top: 14%;
-	
-		
+
+
 		font-style: normal;
 		font-weight: 700;
 		font-size: 18px;
 		line-height: 20px;
-	
+
 		color: #FFFFFF;
 		z-index:10;
-	
+
 	}
 	.boton-contacto {
 		top: 25%;
@@ -1373,9 +1374,9 @@ footer .logos a img {
 		background: #FFFFFF;
 		border-radius: 2px;
 		box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
-		
+
 	}
-	
+
 	.contenedor1-proyectos{
 		position: absolute;
 		top: 740px;
@@ -1423,5 +1424,5 @@ footer .logos a img {
 	#unalTop .firstMenu #profiles ul.dropdown-menu {
 		display: block; border: 0; -webkit-border-radius: none; -moz-border-radius: none; -ms-border-radius: none; -o-border-radius: none; border-radius: none; -webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none; box-shadow: none; position: relative; background-color: transparent; padding: 0;
 	}
-	
+
 }
