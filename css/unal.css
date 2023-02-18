@@ -47,6 +47,7 @@
 	--hover-color:rgb(255, 251, 176);
 }
 
+  
 body {
 	font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
 	display: -webkit-box;
@@ -74,13 +75,13 @@ div.tx-unal-accesibilidad {
 /* principal page */
 .contenedor1 {
 	background-image: url("../images/bgmain.jpeg");
-	height: 80vh;
+	height: 100vh;
 	width: 100vw;
 	background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-	
+	font-family: Arial, Helvetica, sans-serif;
 
 
 }
@@ -122,7 +123,7 @@ div.tx-unal-accesibilidad {
 	background: #FFFFFF;
 	border-radius: 2px;
 	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
-	
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenedor1-proyectos{
@@ -136,6 +137,7 @@ div.tx-unal-accesibilidad {
 	background: #FFFFFF;
 	border-radius: 2px;
 	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+	font-family: Arial, Helvetica, sans-serif;
 }
 .contenedor1-asociacion{
 	position: absolute;
@@ -147,6 +149,7 @@ div.tx-unal-accesibilidad {
 	background: #FFFFFF;
 	border-radius: 2px;
 	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
+	font-family: Arial, Helvetica, sans-serif;
 }
 .boton-grupo-img{
 	position: relative;
@@ -167,6 +170,7 @@ div.tx-unal-accesibilidad {
 	font-style: normal;
 	font-size: 18px;
 	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
 }
 /* .tab {
 	padding: 20px;
@@ -206,32 +210,39 @@ div.tx-unal-accesibilidad {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-	margin-top: 15%;
+	margin-top: 2%;
+	font-family: Arial, Helvetica, sans-serif;
+	
 
 }
+
+
 
 .serviceTitle h2{
 	position: relative;
-	text-transform: uppercase;
+	
 	text-align: center;
 	letter-spacing: 2px;
 	
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 
-	
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 30px;
 	
 
 	color: #000000;
-	z-index:10;
+	z-index:2;
 	
 	
 }
+.serviceBox h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
 .serviceTitle p{
 	text-align: center;
-	margin-bottom: 15px;
-	
+	margin-bottom: 2px;
+	font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -239,11 +250,11 @@ div.tx-unal-accesibilidad {
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 	grid-gap: 20px;
-	margin: 40px, 0;
+	margin: 20px, 0;
 }
 .contenedor3 .contentBox .serviceBox{
-	border: 1px solid rgb(0, 0, 0, 0.05);
-	padding: 50px 20px;
+	border:none;
+	padding: 40px 20px;
 	display: flex;
 	background: var(--hover-color);
 	justify-content: center;
@@ -252,6 +263,8 @@ div.tx-unal-accesibilidad {
 }
 .contenedor3 .contentBox .serviceBox img{
 	max-width: 100%;
+	position: relative;
+    border-radius: 30px;
 	
 }
 .contenedor3 .contentBox .serviceBox h2{
@@ -263,44 +276,12 @@ div.tx-unal-accesibilidad {
 	text-align: center;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	
 }
 .contenedor3 .contentBox .serviceBox p{
 	text-align: center;
 }
-.c3interventoria{
-	position: absolute;
-	width: 280px;
-	height: 250px;
-	left: 13%;
-	top: 900px;
-	display: flex;
-	background: #d15ba4;
-	border-radius: 2px;
-	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
-}
-.c3consultoria{
-	position: absolute;
-	top: 1025px;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	display: flex;
-	width: 280px;
-	height: 250px;
-	background: #901d1d;
-	border-radius: 2px;
-	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
-}
-.c3diseño{
-	position: absolute;
-	width: 280px;
-	height: 250px;
-	right: 13%;
-	top: 900px;
-	display: flex;
-	background: #302929;
-	border-radius: 2px;
-	box-shadow: 1px 1px 4px 2px rgba(255, 255, 255, 0);
-}
+
 
 .contenedor4 {
 	display: grid;
@@ -317,8 +298,7 @@ div.tx-unal-accesibilidad {
 }
 
 
-
-/* No se para que sirve esto
+/* Verificar
 img#image-1 {
 	position: absolute;
 	width: 100%;
@@ -1196,6 +1176,12 @@ footer .logos a img {
 	.col-xxs-12 {
 		width: 100%;
 	}
+	.contenedor3 .contentBox{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap: 20px;
+		margin: 20px, 0;
+	}
 }
 
 @media screen and (max-width:767px) {
@@ -1413,7 +1399,12 @@ footer .logos a img {
 	.boton-grupo-texto{
 		text-align: center;
 	}
-	
+	.contenedor3 .contentBox{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap: 20px;
+		margin: 20px, 0;
+	}
 }
 
 @media screen and (min-width:768px) {
@@ -1432,4 +1423,5 @@ footer .logos a img {
 	#unalTop .firstMenu #profiles ul.dropdown-menu {
 		display: block; border: 0; -webkit-border-radius: none; -moz-border-radius: none; -ms-border-radius: none; -o-border-radius: none; border-radius: none; -webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none; box-shadow: none; position: relative; background-color: transparent; padding: 0;
 	}
+	
 }
